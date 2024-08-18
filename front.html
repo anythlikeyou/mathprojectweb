@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator and Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator and Analyzer</h1>
+        <select id="website-select">
+            <option value="">Select a website</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Google">Google</option>
+            <!-- Add more options -->
+        </select>
+        <button id="generate-btn">Generate Password</button>
+        <input type="text" id="password-input" readonly>
+        <div id="strength-meter"></div>
+        <div id="analysis-results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
